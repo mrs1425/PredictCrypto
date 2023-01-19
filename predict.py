@@ -49,8 +49,8 @@ st.write('''
          
          ''')    
          
-img = Image.open('/Users/mina/Desktop/Entreprise/Lusern/Courses/Programming/Projects/Final/forex/Learning/Test/Stockpic.jpeg')         
-st.image(img,width=600,caption='Important: After Your Technical & Fundamental Analysis look our Predict')
+#img = Image.open('/Users/mina/Desktop/Entreprise/Lusern/Courses/Programming/Projects/Final/forex/Learning/Test/Stockpic.jpeg')         
+#st.image(img,width=600,caption='Important: After Your Technical & Fundamental Analysis look our Predict')
 
 with st.sidebar:
     selected = option_menu("Guide", ["Automatic-guide", 'Manually-guide','Project-Report'],default_index=1, 
