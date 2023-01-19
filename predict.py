@@ -49,8 +49,8 @@ st.write('''
          
          ''')    
          
-#img = Image.open('/Users/mina/Desktop/Entreprise/Lusern/Courses/Programming/Projects/Final/forex/Learning/Test/Stockpic.jpeg')         
-#st.image(img,width=600,caption='Important: After Your Technical & Fundamental Analysis look our Predict')
+img = Image.open('https://github.com/mrs1425/PredictCrypto/blob/1e430fa7d976e874dfd4a8e4b4b772012e8a7011/Stockpic.jpeg')         
+st.image(img,width=600,caption='Important: After Your Technical & Fundamental Analysis look our Predict')
 
 with st.sidebar:
     selected = option_menu("Guide", ["Automatic-guide", 'Manually-guide','Project-Report'],default_index=1, 
@@ -74,13 +74,7 @@ with st.sidebar:
         st.subheader('If you know SVM algorithm')
         st.markdown('If you want to focus on any currency, by selecting Manually in the SVM section , you can change C and Gamma Manually.Just need to select Manually checkbox in the app.')
     
-    elif selected == 'Project-Report' :
-        with open("https://github.com/mrs1425/PredictCrypto/blob/f5da9dfd1f332dd7afb4bbfe45a80e062a4f2de3/Project-Report.pdf",'rb') as file:
-            st.download_button(
-                    label="Download Project-Report",
-                    data=file,
-                    file_name="Project-Report.pdf",
-                    )
+    
             
 st.sidebar.header('Input Data')
 
