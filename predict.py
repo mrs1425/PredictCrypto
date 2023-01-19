@@ -49,8 +49,8 @@ st.write('''
          
          ''')    
          
-img = Image.open('https://github.com/mrs1425/PredictCrypto/blob/1e430fa7d976e874dfd4a8e4b4b772012e8a7011/Stockpic.jpeg')         
-st.image(img,width=600,caption='Important: After Your Technical & Fundamental Analysis look our Predict')
+#img = Image.open('https://github.com/mrs1425/PredictCrypto/blob/1e430fa7d976e874dfd4a8e4b4b772012e8a7011/Stockpic.jpeg')         
+#st.image(img,width=600,caption='Important: After Your Technical & Fundamental Analysis look our Predict')
 
 with st.sidebar:
     selected = option_menu("Guide", ["Automatic-guide", 'Manually-guide','Project-Report'],default_index=1, 
